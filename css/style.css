@@ -29,30 +29,19 @@ header {
 h1 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin: 0 0 0.5rem 0;
 }
 
 h2 {
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin: 0;
-    opacity: 0.8;
+    font-size: 1.75rem;
+    font-weight: 500;
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    color: var(--primary-color);
-    margin-bottom: 1rem;
+
 }
 
-h4 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: var(--text-color);
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
 
 main {
     max-width: 900px;
@@ -69,7 +58,7 @@ section {
 }
 
 /* Estilo para os "cards" de promoção */
-.promocao {
+.card {
     background-color: var(--surface-color);
     padding: 1.5rem;
     border-left: 5px solid var(--secondary-color);
@@ -78,11 +67,11 @@ section {
     margin-bottom: 1.5rem;
 }
 
-.promocao p {
+.card p {
     margin: 0 0 1rem 0;
 }
 
-.promocao p:last-child {
+.card p:last-child {
     margin-bottom: 0;
 }
 
@@ -115,6 +104,10 @@ nav ul li a {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: background-color 0.3s ease;
+}
+
+nav ul li a.pagina-atual{
+    border:1px solid var(--secondary-color);
 }
 
 nav ul li a:hover,
