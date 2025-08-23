@@ -1,6 +1,6 @@
 /*estilizado conforme google material design*/
 :root {
-    --primary-color: #0064b6; 
+    --primary-color: red/*#0064b6*/; 
     --secondary-color: #FF0000; 
     --background-color: #F5F5F5; 
     --surface-color: #FFFFFF; 
@@ -140,4 +140,5 @@ nav ul li a:focus {
     .promocao {
         padding: 1rem;
     }
+
 }
