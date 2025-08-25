@@ -107,7 +107,8 @@ nav ul li a {
 }
 
 nav ul li a.pagina-atual{
-    border:1px solid var(--secondary-color);
+    color:  var(--primary-color);
+    background-color:  var(--surface-color);
 }
 
 nav ul li a:hover,
